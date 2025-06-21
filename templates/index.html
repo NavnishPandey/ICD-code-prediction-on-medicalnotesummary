@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medical Note ICD Prediction</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h2>Medical Note to ICD Code Prediction</h2>
+    <form method="post" action="/predict">
+        <textarea name="dialogue" rows="8" required>{{ dialogue or '' }}</textarea><br>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if result %}
+    <div class="result-box">
+        <h3>Summary</h3>
+        <p>{{ result.summary }}</p>
+
+        <h3>Predicted ICD Code</h3>
+        <p>{{ result.icd_code }}</p>
+    </div>
+    {% endif %}
+</body>
+</html>

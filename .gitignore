@@ -1,0 +1,5 @@
+venv
+.qodo
+Dockerfile
+Dockerignore
+.env

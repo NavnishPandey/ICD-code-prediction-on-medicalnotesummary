@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+ray
+ray[serve]
+transformers
+torch
+huggingface_hub
+langchain
+langchain_community
+python-dotenv
+openai
+huggingface_hub
