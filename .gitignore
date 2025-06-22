@@ -1,7 +1,9 @@
 venv
+env
 .qodo
 Dockerfile
 Dockerignore
 .env
+
 _pycaches
 __pycache__
