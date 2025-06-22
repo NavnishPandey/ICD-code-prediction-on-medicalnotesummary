@@ -3,3 +3,5 @@ venv
 Dockerfile
 Dockerignore
 .env
+_pycaches
+__pycache__

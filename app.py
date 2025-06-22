@@ -12,5 +12,5 @@ token = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 login(token)
 
 if __name__ == "__main__":
-    print("🚀 App running at http://127.0.0.1:8001")
-    uvicorn.run(app, host="127.0.0.1", port=8001)
+    print("🚀 App running at http://127.0.0.1:800")
+    uvicorn.run(app, host="0.0.0.0", port=8000)

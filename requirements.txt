@@ -10,3 +10,4 @@ langchain_community
 python-dotenv
 openai
 huggingface_hub
+python-multipart

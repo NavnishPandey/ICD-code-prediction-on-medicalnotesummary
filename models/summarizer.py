@@ -1,6 +1,5 @@
 # summarizer.py
 import os
-import httpx
 import logging
 from dotenv import load_dotenv
 import requests
